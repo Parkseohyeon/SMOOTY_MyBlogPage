@@ -1,0 +1,188 @@
+<!-- This is HTML file of the website, "SMOOTY"  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SMOOTY</title>
+	<link rel="stylesheet" type="text/css" href="..\CSS\CSS_Main.css">
+
+</head>
+
+<body>
+<div class="Line"></div>
+
+	<div id="layer_fixed">
+		 <table cellspacing="0" cellpadding="0" style="width:100%; height:100%;">
+   			 <tr>
+       			<td style="vertical-align:middle; padding-left: 20px; padding-right: 20px;">
+       			</td>
+    		</tr>
+    	</table>
+    </div>
+
+
+<!-- Wrapper -->
+	<div class="wrapper">
+
+<!-- Section1 
+-->
+		<div class="SMOOTY_Section1"> 
+
+			<div class="SMOOTY_Main">
+				
+				<img src="..\IMS\SMOOTY_Logo.png">
+
+				<div class="SMOOTY_Quick_Menu">
+					
+				</div>
+
+			</div>
+
+			<div class="SMOOTY_Menu">
+				<ul>
+				
+				</ul>
+			</div>
+		</div>
+
+<!-- Section2 -->
+		<div class="SMOOTY_Section2">
+
+			<div class="SMOOTY_Side_Menu">
+
+				<div class="SMOOTY_Login">
+					
+					<div class="login_top"></div>
+
+					<div class="login">
+						<table cellpadding="0" cellspacing="0"> 
+							<tr>
+								<td>
+									<input class="Account" value="" type="text" tabindex="1" class= "input" placeholder="아이디">
+									<input class="Account" value="" type="text" tabindex="2" class= "input" placeholder="비밀번호">
+								</td>
+							</tr>
+						</table>
+
+					</div>
+
+					<span class="btn_login">
+						
+							<input type="submit" title="로그인" value="로그인" class="button">	</input>
+					</span>	
+
+					<div class="login_check">
+						<input type="checkbox" id="chk_log" title="로그인 상태유지" class="chk_login" tabindex="-1" >
+						<label for="chk_log" class="lb1_long" id= "lb1_long">
+							<i class="ico_chk"></i>로그인 상태 유지
+						</label>
+					</div>
+
+
+
+					<div class="login_bottom"></div>
+
+				</div>
+					
+				<div class="SMOOTY_Menu1">
+					
+
+				</div>
+
+				<div class="SMOOTY_Menu2">
+					
+
+				</div>
+
+			</div>
+
+			<div class="SMOOTY_Banner">
+
+  					<!-- Full-width images with number and caption text -->
+					<div class="mySlides_fade">
+							<img src="..\IMS\SMOOTY_SlideShow1.jpg" />
+					</div>
+
+					<div class="mySlides_fade">
+							<img src="..\IMS\SMOOTY_SlideShow2.jpg"/>
+					</div>
+
+					<div class="mySlides_fade">
+							<img src="..\IMS\SMOOTY_SlideShow3.jpg" />
+					</div>
+
+					<div class="mySlides_fade">
+							<img src="..\IMS\SMOOTY_SlideShow4.jpg"/>
+					</div>
+
+				
+				<br>
+
+					<!-- The dots/circles -->
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+			</div>
+
+			<div class="SMOOTY_News">
+
+				<h2 class="SMOOTY_News_Main" ><a class="text" href="#">스무티 뉴스 > </a></h2>
+
+				<ol class="ca_l" queryid="C1513764478589923327">
+
+			</div>
+
+			<div class="SMOOTY_Notice">
+
+			</div>
+
+			<div class="SMOOTY_Img_Notice">
+			</div>
+
+<!-- Section3 -->
+		</div>
+		<div class="SMOOTY_Section3">
+
+			<div class="SMOOTY_Shortcut">
+
+			</div>
+
+			<div class="SMOOTY_Introduce">
+					
+
+			</div>
+		</div>
+
+	</div>
+
+
+	<script>
+		
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+   		
+   			var i;
+    		var slides = document.getElementsByClassName("mySlides_fade");
+  			
+  			for (i = 0; i < slides.length; i++) {
+    		    slides[i].style.display = "none"; 
+    		}
+    
+    		slideIndex++;
+    
+    		if (slideIndex > slides.length) {slideIndex = 1} 
+    			slides[slideIndex-1].style.display = "block"; 
+    
+    		setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+
+	</script>
+
+</body>
+
+</html>
+
