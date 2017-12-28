@@ -3,7 +3,8 @@
 <html>
 <head>
 	<title>SMOOTY</title>
-	<link rel="stylesheet" type="text/css" href="..\CSS\CSS_Main.css">
+	<link rel="stylesheet" type="text/css" href="..\CSS\SMOOTY_CSS.css">
+<!-- 	<script type="text/javascript" src="..\js\SMOOTY_JavaScript.js"></script>  -->
 
 </head>
 
@@ -31,8 +32,15 @@
 				
 				<img src="..\IMS\SMOOTY_Logo.png">
 
-				<div class="SMOOTY_Quick_Menu">
-					
+				<div class="SMOOTY_search">
+					<span  class="Yellow_Window">
+						<input id="query" type="text" name="query" title="검색어 입력" class="input_text"  style="ime-mode: active;">
+
+					</span>
+					<button id="search_btn" type="submit" title="검색" class="SMOOTY_search_btn">
+						
+					</button>
+
 				</div>
 
 			</div>
@@ -98,19 +106,19 @@
 			<div class="SMOOTY_Banner">
 
   					<!-- Full-width images with number and caption text -->
-					<div class="mySlides_fade">
+					<div class="mySlides fade">
 							<img src="..\IMS\SMOOTY_SlideShow1.jpg" />
 					</div>
 
-					<div class="mySlides_fade">
+					<div class="mySlides fade">
 							<img src="..\IMS\SMOOTY_SlideShow2.jpg"/>
 					</div>
 
-					<div class="mySlides_fade">
+					<div class="mySlides fade">
 							<img src="..\IMS\SMOOTY_SlideShow3.jpg" />
 					</div>
 
-					<div class="mySlides_fade">
+					<div class="mySlides fade">
 							<img src="..\IMS\SMOOTY_SlideShow4.jpg"/>
 					</div>
 
@@ -157,28 +165,30 @@
 
 	</div>
 
-
 	<script>
 		
-		var slideIndex = 0;
-		showSlides();
+var slideIndex = 0;
+showSlides();
 
-		function showSlides() {
+function showSlides() {
    		
-   			var i;
-    		var slides = document.getElementsByClassName("mySlides_fade");
-  			
-  			for (i = 0; i < slides.length; i++) {
-    		    slides[i].style.display = "none"; 
-    		}
+   	var i=0;
+    var slides = {};
+    slides = document.getElementsByClassName("mySlides fade");
+  		
+  	for (i = 0; i < slides.length; i++) {
+    	   slides[i].style.display = "none"; 
+    }
     
-    		slideIndex++;
+    slideIndex++;
     
-    		if (slideIndex > slides.length) {slideIndex = 1} 
-    			slides[slideIndex-1].style.display = "block"; 
+    if (slideIndex > slides.length) {slideIndex = 1;} 
     
-    		setTimeout(showSlides, 2000); // Change image every 2 seconds
-		}
+    slides[slideIndex-1].style.display = "block"; 
+  
+    
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
 
 	</script>
 
