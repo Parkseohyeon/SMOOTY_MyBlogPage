@@ -92,14 +92,26 @@
 				</div>
 					
 				<div class="SMOOTY_Menu1">
+					<div class="SMOOTY_Menu1_header">
+						GUI 메뉴
+					</div>
 					
 
 				</div>
 
 				<div class="SMOOTY_Menu2">
+					<img src="..\IMS\ARIO.jpg" />
+				</div>
+
+				<div class="SMOOTY_Menu3">
+					<div class="SMOOTY_Menu3_header">
+						쇼핑
+					</div>
 					
 
 				</div>
+
+				
 
 			</div>
 
@@ -136,9 +148,27 @@
 
 			<div class="SMOOTY_News">
 
-				<h2 class="SMOOTY_News_Main" ><a class="text" href="#">스무티 뉴스 > </a></h2>
+				<div class="SMOOTY_News_flash">
+					<h2 class="SMOOTY_News_Main" ><a class="text" href="#">스무티 뉴스 > </a></h2>
+				
+					<div class="SMOOTY_News_Stand_Rolling" queryid="s1" >
+						<ol class="sr_1" queryid="s2">
+							<li class="sr_item"><a data-clk="ncy.quickarticle">가상화폐 규제, 거래소 폐쇠 건의</a></li>
+							<li class="sr_item"  data-clk="ncy.quickarticle"><a>이주빈 김민석 열애? YES or NO?</a></li>
+							<li class="sr_item"  data-clk="ncy.quickarticle"><a>주이, 성형 고백도 주이처럼…"티가 나지 않아 슬프다"</a></li>
+							<li class="sr_item"  data-clk="ncy.quickarticle"><a>한현민, 국내 1호 흑인 혼혈 모델의 꿈은?</a></li>
+							<li class="sr_item"  data-clk="ncy.quickarticle"><a>올해 세계 최고 미남·미녀…뷔 1위, 쯔위 3위</a></li>
+							<li class="sr_item"  data-clk="ncy.quickarticle"><a>이세창♥정하나, 7만원으로 꾸민 신혼집 침실 '최초공개'</a></li>
+						</ol>
+					</div>
+				</div>
 
-				<ol class="ca_l" queryid="C1513764478589923327">
+				<ul class="SMOOTY_News_Link">
+					<li class="sl_item"><a class="sl_item_a Main">스무티뉴스</a></li>
+					<li class="sl_item"><a class="sl_item_a">속보</a></li>
+					<li class="sl_item"><a class="sl_item_a">스포츠</a></li>
+					<li class="sl_item"><a class="sl_item_a">연예</a></li>
+				</ul>
 
 			</div>
 

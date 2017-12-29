@@ -56,9 +56,15 @@
 
 				.SMOOTY_Login .login_bottom { width: 100%; height: 9px; position: relative; top: 48px; background-color: #ffcc33; }
 
-			.SMOOTY_Menu1 { width: 100%; height: 48.8%; border: 1px solid #dddddd; background-color: white; margin-top: 10px; }
+			.SMOOTY_Menu1 { width: 100%; height: 20.8%; border: 1px solid #dddddd; background-color: white; margin-top: 10px; }
+				.SMOOTY_Menu1 .SMOOTY_Menu1_header { position: relative; padding-left: 15px; height: 55px; border-bottom: 1px solid #ebeef3; }
 
-			.SMOOTY_Menu2 { width: 100%; height: 33%; border: 1px solid #dddddd; background-color: white; margin-top: 10px; }
+			.SMOOTY_Menu2 { width: 100%; height: 17%; border: 1px solid #dddddd; background-color: white; margin-top: 16px; }
+				.SMOOTY_Menu2 img { width: 311px; height: 219px; }
+
+			.SMOOTY_Menu3 { width: 100%; height: 47.2%; border: 1px solid #dddddd; background-color: white; margin-top: 16px; }
+				.SMOOTY_Menu3 .SMOOTY_Menu3_header { position: relative; padding-left: 15px; height: 55px; border-bottom: 1px solid #ebeef3; }
+
 
 	/* /SideMenu */
 
@@ -67,7 +73,16 @@
 
 
 		.SMOOTY_News {  width: 1150px;  height: 100px; border: 1px solid #dddddd;  background-color: white; position:static; float: right; margin: 10px;  }
-			.SMOOTY_News_Main { margin-top: 30px; margin-left: 20px; }
+			.SMOOTY_News .SMOOTY_News_flash { position: relative; float: left; padding: 14px 0 0 16px; width: 750px; height: 80px;  }
+				.SMOOTY_News .SMOOTY_News_Main { float: left; margin-left: 20px; }
+				.SMOOTY_News .SMOOTY_News_Stand_Rolling { width: 550px; height: 50px; margin-left: 10px; margin-top: 10px;  overflow: hidden; float: left; }
+					.SMOOTY_News .SMOOTY_News_Stand_Rolling .sr_item { overflow: hidden; height: 20px; vertical-align: top; text-overflow: ellipsis; white-space: nowrap; line-height: 20px; }
+
+				.SMOOTY_News .SMOOTY_News_Link {  float: right; margin-top: 37px; margin-right: 5px; }
+					.SMOOTY_News .SMOOTY_News_Link .sl_item { float: left; margin-right: 15px; list-style: none; }
+						.SMOOTY_News .SMOOTY_News_Link .sl_item .sl_item_a { display: block; font-size: 20px; text-decoration: none; }
+						.SMOOTY_News .SMOOTY_News_Link .sl_item .Main { color: #ffcc33; font: bold; }
+
 
 		.SMOOTY_Img_Notice {  width: 615px;  height: 710px; border: 1px solid #dddddd; background-color: white; position:static; float: right; margin: 10px;  }
 
