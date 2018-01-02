@@ -93,7 +93,11 @@
 					
 				<div class="SMOOTY_Menu1">
 					<div class="SMOOTY_Menu1_header">
-						GUI 메뉴
+						<div class="header_info">
+							<span class="date">01.02</span>
+							<span class="day">(화)</span>
+							<i class="splash" >|</i>
+						</div>
 					</div>
 					
 

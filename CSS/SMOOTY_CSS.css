@@ -58,6 +58,10 @@
 
 			.SMOOTY_Menu1 { width: 100%; height: 20.8%; border: 1px solid #dddddd; background-color: white; margin-top: 10px; }
 				.SMOOTY_Menu1 .SMOOTY_Menu1_header { position: relative; padding-left: 15px; height: 55px; border-bottom: 1px solid #ebeef3; }
+					.SMOOTY_Menu1 .SMOOTY_Menu1_header .header_info { width: 240px; height: 55px;  } 
+					.SMOOTY_Menu1 .SMOOTY_Menu1_header .header_info .date { font-size: 20px; height: 55px; line-height: 56px; }
+					.SMOOTY_Menu1 .SMOOTY_Menu1_header .header_info .day { font-size: 20px; height: 55px; line-height: 54px; }
+					.SMOOTY_Menu1 .SMOOTY_Menu1_header .header_info .splash {  color: #e3e7ee; }
 
 			.SMOOTY_Menu2 { width: 100%; height: 17%; border: 1px solid #dddddd; background-color: white; margin-top: 16px; }
 				.SMOOTY_Menu2 img { width: 311px; height: 219px; }
